@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($ProgressPreference='SilentlyContinue'; $test = \"https://images.unsplash.com/photo-1605745341112-85968b19335b?auto=format&fit=crop&w=400&q=60\"; try { $r = Invoke-WebRequest -Uri $test -TimeoutSec 25 -UseBasicParsing; \"OK status=$\\($r.StatusCode\\) bytes=$\\($r.RawContentLength\\)\" } catch { \"FAIL: $\\($_.Exception.Message\\)\" })"
+    ]
+  }
+}
