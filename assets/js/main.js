@@ -12,6 +12,7 @@
       "meta.title": "Umervion · Global Trade Partners | Uluslararası Ticaret, E-Ticaret & Gastronomi",
 
       "nav.about": "Hakkımızda",
+      "nav.story": "Hikâyemiz",
       "nav.restaurants": "Restoranlarımız",
       "nav.services": "Hizmetler",
       "nav.sectors": "Faaliyet Alanları",
@@ -43,6 +44,25 @@
       "about.pill4": "Sürdürülebilirlik",
       "about.pill5": "Uzun Vadeli Ortaklık",
 
+      "story.eyebrow": "Hikâyemiz",
+      "story.title": "1992'den Bugüne Bir Güven Hikâyesi",
+      "story.lead": "Her güçlü markanın arkasında yıllara yayılan bir emek, birikim ve güven hikâyesi vardır.",
+      "story.y1": "1992",
+      "story.t1": "Mersin'de Bir Aile Pastanesi",
+      "story.p1": "Bizim yolculuğumuz 1992 yılında Mersin'de, küçük bir aile pastanesiyle başladı. Kaliteyi, ustalığı ve müşteri memnuniyetini merkeze alan bu girişim; yıllar içinde istikrarlı bir büyüme göstererek yedi şubeli güçlü bir pastane zincirine dönüştü ve Çukurova Bölgesi'nin önde gelen pastacılık markalarından biri haline geldi. Bugün hâlâ iş yapış biçimimizi şekillendiren güven, kalite ve dürüstlük anlayışımızın temelleri o yıllarda atıldı.",
+      "story.y2": "2000",
+      "story.t2": "Gastronomiye Adım",
+      "story.p2": "2000 yılında gastronomiye duyduğumuz tutkuyu restoran sektörüne taşıyarak yeni bir döneme adım attık. Mersin'de başlayan restoran yolculuğumuz zamanla Ankara, Adana ve İstanbul'a uzandı. Yıllar boyunca binlerce misafirimizi ağırlarken yalnızca restoranlar değil; güçlü ekipler, sürdürülebilir işletmeler ve uzun soluklu iş ortaklıkları inşa ettik.",
+      "story.y3": "30+ Yıl",
+      "story.t3": "Tecrübenin Öğrettiği",
+      "story.p3": "Otuz yılı aşkın ticari tecrübemiz bize, gerçek başarının yalnızca büyümekle değil; güven kazanmak, değer üretmek ve kalıcı ilişkiler kurmakla mümkün olduğunu öğretti.",
+      "story.y4": "Bugün",
+      "story.t4": "Avrupa'daki Yeni Temsilci",
+      "story.p4": "Bugün Umervion, bu köklü birikimin Avrupa'daki yeni temsilcisidir. Merkezi Almanya'da bulunan Umervion; gastronomi, uluslararası ticaret, lojistik, yatırım ve stratejik iş geliştirme alanlarında faaliyet göstererek, Türkiye'de edindiğimiz deneyimi Avrupa'ya taşımayı ve uluslararası ölçekte sürdürülebilir iş birlikleri kurmayı hedeflemektedir. Amacımız; Avrupa ile küresel pazarlar arasında güvenilir bir iş ortağı olarak uzun vadeli değer üreten projeler geliştirmek ve farklı sektörlerde kalıcı başarı hikâyeleri oluşturmaktır.",
+      "story.y5": "Vizyon",
+      "story.t5": "Sınırların Ötesinde",
+      "story.p5": "Köklerimiz, 1992 yılında başlayan girişimcilik ruhuna dayanıyor. Vizyonumuz ise sınırların ötesine uzanıyor. Geçmişimizden aldığımız güç ve geleceğe duyduğumuz inançla, değer üreten, güven veren ve kalıcı iz bırakan projeler geliştirmeye devam ediyoruz.",
+      "story.close": "Çünkü bizim için başarı; yalnızca büyümek değil, güven inşa etmek ve gelecek nesillere değer bırakmaktır.",
       "heritage.eyebrow": "Köklerimiz · Türkiye",
       "heritage.title": "Güvenin Temeli: Restoranlarımız",
       "heritage.desc": "Umervion'un arkasında, Türkiye'nin önde gelen lokasyonlarında yıllardır başarıyla işletilen <strong>Çınaraltı Mangalbaşı</strong> ve <strong>Shangai 520</strong> restoranları yer alır. Avrupa'ya taşıdığımız güven, sahada kanıtlanmış bu işletme deneyiminden doğar.",
@@ -51,7 +71,7 @@
       "heritage.bannerText": "Bakır işçiliği, mangal kültürü ve sofra geleneğini bir araya getiren imza mekânlarımız.",
 
       "branch.ankaraName": "Çınaraltı · İncek",
-      "branch.mersinName": "Çınaraltı · Marina",
+      "branch.mersinName": "Çınaraltı · Mersin",
       "branch.istanbulName": "Çınaraltı · Maltepe",
       "branch.open": "24 Saat Açık",
       "branch.istanbulHours": "24 Saat Açık (Open 24 Hours)",
@@ -145,6 +165,7 @@
       "meta.title": "Umervion · Global Trade Partners | International Trade, E-Commerce & Gastronomy",
 
       "nav.about": "About Us",
+      "nav.story": "Our Story",
       "nav.restaurants": "Our Restaurants",
       "nav.services": "Services",
       "nav.sectors": "Our Sectors",
@@ -176,6 +197,25 @@
       "about.pill4": "Sustainability",
       "about.pill5": "Long-Term Partnership",
 
+      "story.eyebrow": "Our Story",
+      "story.title": "A Story of Trust, From 1992 to Today",
+      "story.lead": "Behind every strong brand lies a story of dedication, accumulated experience and trust spanning many years.",
+      "story.y1": "1992",
+      "story.t1": "A Family Patisserie in Mersin",
+      "story.p1": "Our journey began in 1992 in Mersin, with a small family patisserie. Built around quality, craftsmanship and customer satisfaction, this venture grew steadily over the years into a strong chain of seven patisseries and became one of the leading pastry brands of the Çukurova Region. The foundations of the trust, quality and honesty that still shape the way we do business were laid in those years.",
+      "story.y2": "2000",
+      "story.t2": "Stepping Into Gastronomy",
+      "story.p2": "In 2000 we entered a new era, carrying our passion for gastronomy into the restaurant sector. Our restaurant journey, which began in Mersin, gradually extended to Ankara, Adana and İstanbul. Over the years, while welcoming thousands of guests, we built not only restaurants but strong teams, sustainable businesses and long-lasting partnerships.",
+      "story.y3": "30+ Years",
+      "story.t3": "What Experience Taught Us",
+      "story.p3": "More than thirty years of commercial experience taught us that real success is possible not merely by growing, but by earning trust, creating value and building lasting relationships.",
+      "story.y4": "Today",
+      "story.t4": "A New Presence in Europe",
+      "story.p4": "Today, Umervion is the new representative of this deep-rooted experience in Europe. Headquartered in Germany, Umervion operates in gastronomy, international trade, logistics, investment and strategic business development, aiming to carry the experience we gained in Türkiye to Europe and to build sustainable collaborations on an international scale. Our goal is to develop projects that create long-term value as a reliable business partner between Europe and global markets, and to write lasting success stories across different sectors.",
+      "story.y5": "Vision",
+      "story.t5": "Beyond Borders",
+      "story.p5": "Our roots rest on the entrepreneurial spirit that began in 1992. Our vision, however, reaches beyond borders. With the strength we draw from our past and our faith in the future, we continue to develop projects that create value, inspire trust and leave a lasting mark.",
+      "story.close": "Because for us, success is not only about growing — it is about building trust and leaving value for future generations.",
       "heritage.eyebrow": "Our Roots · Türkiye",
       "heritage.title": "The Foundation of Trust: Our Restaurants",
       "heritage.desc": "Behind Umervion stand our <strong>Çınaraltı Mangalbaşı</strong> and <strong>Shangai 520</strong> restaurants, successfully operated for years in prime locations across Türkiye. The trust we carry to Europe is born from this proven, hands-on experience.",
@@ -184,7 +224,7 @@
       "heritage.bannerText": "Our signature venues bringing together copper craftsmanship, grill culture and the tradition of the table.",
 
       "branch.ankaraName": "Çınaraltı · İncek",
-      "branch.mersinName": "Çınaraltı · Marina",
+      "branch.mersinName": "Çınaraltı · Mersin",
       "branch.istanbulName": "Çınaraltı · Maltepe",
       "branch.open": "Open 24/7",
       "branch.istanbulHours": "Open 24 Hours",
@@ -278,6 +318,7 @@
       "meta.title": "Umervion · Global Trade Partners | Internationaler Handel, E-Commerce & Gastronomie",
 
       "nav.about": "Über uns",
+      "nav.story": "Unsere Geschichte",
       "nav.restaurants": "Unsere Restaurants",
       "nav.services": "Leistungen",
       "nav.sectors": "Geschäftsfelder",
@@ -309,6 +350,25 @@
       "about.pill4": "Nachhaltigkeit",
       "about.pill5": "Langfristige Partnerschaft",
 
+      "story.eyebrow": "Unsere Geschichte",
+      "story.title": "Eine Geschichte des Vertrauens – von 1992 bis heute",
+      "story.lead": "Hinter jeder starken Marke steht eine über Jahre gewachsene Geschichte aus Hingabe, Erfahrung und Vertrauen.",
+      "story.y1": "1992",
+      "story.t1": "Eine Familienkonditorei in Mersin",
+      "story.p1": "Unsere Reise begann 1992 in Mersin mit einer kleinen Familienkonditorei. Dieses Unternehmen, das Qualität, Handwerkskunst und Kundenzufriedenheit in den Mittelpunkt stellte, wuchs im Laufe der Jahre stetig zu einer starken Kette mit sieben Konditoreien heran und wurde zu einer der führenden Konditoreimarken der Çukurova-Region. Die Grundlagen für Vertrauen, Qualität und Ehrlichkeit, die unsere Arbeitsweise noch heute prägen, wurden in jenen Jahren gelegt.",
+      "story.y2": "2000",
+      "story.t2": "Schritt in die Gastronomie",
+      "story.p2": "Im Jahr 2000 traten wir in eine neue Ära ein und übertrugen unsere Leidenschaft für Gastronomie auf die Restaurantbranche. Unsere Restaurantreise, die in Mersin begann, dehnte sich nach und nach auf Ankara, Adana und İstanbul aus. Über die Jahre haben wir, während wir Tausende von Gästen begrüßten, nicht nur Restaurants aufgebaut, sondern starke Teams, nachhaltige Betriebe und langfristige Partnerschaften.",
+      "story.y3": "30+ Jahre",
+      "story.t3": "Was die Erfahrung lehrte",
+      "story.p3": "Mehr als dreißig Jahre kaufmännische Erfahrung haben uns gelehrt, dass echter Erfolg nicht allein durch Wachstum möglich ist, sondern durch das Gewinnen von Vertrauen, das Schaffen von Werten und den Aufbau dauerhafter Beziehungen.",
+      "story.y4": "Heute",
+      "story.t4": "Neue Präsenz in Europa",
+      "story.p4": "Heute ist Umervion der neue Vertreter dieser tief verwurzelten Erfahrung in Europa. Mit Sitz in Deutschland ist Umervion in den Bereichen Gastronomie, internationaler Handel, Logistik, Investitionen und strategische Geschäftsentwicklung tätig und hat sich zum Ziel gesetzt, die in der Türkei gewonnene Erfahrung nach Europa zu tragen und nachhaltige Kooperationen auf internationaler Ebene aufzubauen. Unser Ziel ist es, als verlässlicher Geschäftspartner zwischen Europa und den globalen Märkten langfristig wertschöpfende Projekte zu entwickeln und in verschiedenen Branchen dauerhafte Erfolgsgeschichten zu schreiben.",
+      "story.y5": "Vision",
+      "story.t5": "Über Grenzen hinaus",
+      "story.p5": "Unsere Wurzeln beruhen auf dem Unternehmergeist, der 1992 begann. Unsere Vision jedoch reicht über Grenzen hinaus. Mit der Kraft aus unserer Vergangenheit und dem Glauben an die Zukunft entwickeln wir weiterhin Projekte, die Werte schaffen, Vertrauen geben und bleibende Spuren hinterlassen.",
+      "story.close": "Denn für uns bedeutet Erfolg nicht nur zu wachsen – sondern Vertrauen aufzubauen und kommenden Generationen Werte zu hinterlassen.",
       "heritage.eyebrow": "Unsere Wurzeln · Türkei",
       "heritage.title": "Das Fundament des Vertrauens: Unsere Restaurants",
       "heritage.desc": "Hinter Umervion stehen unsere Restaurants <strong>Çınaraltı Mangalbaşı</strong> und <strong>Shangai 520</strong>, die seit Jahren erfolgreich an erstklassigen Standorten in der ganzen Türkei betrieben werden. Das Vertrauen, das wir nach Europa tragen, entsteht aus dieser bewährten, praktischen Erfahrung.",
@@ -317,7 +377,7 @@
       "heritage.bannerText": "Unsere besonderen Orte, die Kupferhandwerk, Grillkultur und Tafeltradition vereinen.",
 
       "branch.ankaraName": "Çınaraltı · İncek",
-      "branch.mersinName": "Çınaraltı · Marina",
+      "branch.mersinName": "Çınaraltı · Mersin",
       "branch.istanbulName": "Çınaraltı · Maltepe",
       "branch.open": "24 Std. geöffnet",
       "branch.istanbulHours": "24 Stunden geöffnet (Open 24 Hours)",
@@ -592,10 +652,22 @@
     cuisine: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 11h16a8 8 0 0 1-16 0Z"/><path d="M12 4c1.6 1.2 1.6 2.8 0 4"/><path d="M9 5.5c.8.6.8 1.4 0 2"/><path d="M3 21h18"/></svg>',
     images: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>',
     instagram: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.1" fill="currentColor" stroke="none"/></svg>',
-    arrow: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>'
+    arrow: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
+    play: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>'
+  };
+  var isVideo = function (src) { return /\.(mp4|webm|mov|m4v)$/i.test(src || ""); };
+  var firstPhoto = function (b) {
+    for (var i = 0; i < b.images.length; i++) { if (!isVideo(b.images[i])) return b.images[i]; }
+    return b.images[0];
+  };
+  var countMedia = function (b) {
+    var p = 0, v = 0;
+    b.images.forEach(function (s) { isVideo(s) ? v++ : p++; });
+    return { photos: p, videos: v };
   };
   const L = {
     photos: { tr: "fotoğraf", en: "photos", de: "Fotos" },
+    video: { tr: "video", en: "video", de: "Video" },
     detail: { tr: "Galeri & Detaylar", en: "Gallery & Details", de: "Galerie & Details" },
     open24: { tr: "24 Saat Açık", en: "Open 24/7", de: "24 Std. geöffnet" },
     address: { tr: "Adres", en: "Address", de: "Adresse" },
@@ -610,7 +682,11 @@
     {
       id: "incek", city: "Ankara",
       name: "Çınaraltı · İncek",
-      images: ["cinaralti-incek/1.jpeg", "cinaralti-incek/2.jpeg", "cinaralti-incek/3.jpeg", "cinaralti-incek/4.jpeg"],
+      images: [
+        "cinaralti-incek/1.jpeg", "cinaralti-incek/2.jpeg", "cinaralti-incek/3.jpeg", "cinaralti-incek/4.jpeg",
+        "cinaralti-incek/5.jpeg", "cinaralti-incek/6.jpeg", "cinaralti-incek/7.jpeg", "cinaralti-incek/8.jpeg",
+        "cinaralti-incek/9.jpeg", "cinaralti-incek/10.jpeg", "cinaralti-incek/11.mp4"
+      ],
       desc: {
         tr: "Ankara İncek'te, geniş bahçesi ve mangal kültürünün eşsiz lezzetleriyle misafirlerini ağırlayan Çınaraltı Mangalbaşı.",
         en: "In İncek, Ankara — Çınaraltı Mangalbaşı welcomes guests with a spacious garden and the unique flavours of Turkish grill culture.",
@@ -623,7 +699,12 @@
     {
       id: "cayyolu", city: "Ankara",
       name: "Çınaraltı · Çayyolu",
-      images: ["cinaralti-cayyolu/1.jpeg", "cinaralti-cayyolu/2.jpeg"],
+      images: [
+        "cinaralti-cayyolu/1.jpeg", "cinaralti-cayyolu/2.jpeg", "cinaralti-cayyolu/4.jpeg", "cinaralti-cayyolu/5.jpeg",
+        "cinaralti-cayyolu/6.jpeg", "cinaralti-cayyolu/7.jpeg", "cinaralti-cayyolu/8.jpeg", "cinaralti-cayyolu/9.jpeg",
+        "cinaralti-cayyolu/10.jpeg", "cinaralti-cayyolu/11.jpeg", "cinaralti-cayyolu/12.jpeg", "cinaralti-cayyolu/13.jpeg",
+        "cinaralti-cayyolu/14.jpeg", "cinaralti-cayyolu/3.mp4"
+      ],
       desc: {
         tr: "Ankara Çayyolu'ndaki yeni şubemiz; aynı kalite ve lezzet anlayışını modern bir atmosferle buluşturuyor.",
         en: "Our new branch in Çayyolu, Ankara — bringing the same quality and flavour together with a modern atmosphere.",
@@ -634,12 +715,15 @@
     },
     {
       id: "marina", city: "Mersin",
-      name: "Çınaraltı · Marina",
-      images: ["cinaralti-mersin/1.jpeg"],
+      name: "Çınaraltı · Mersin",
+      images: [
+        "cinaralti-mersin/1.jpeg", "cinaralti-mersin/4.jpeg", "cinaralti-mersin/5.jpeg", "cinaralti-mersin/6.jpeg",
+        "cinaralti-mersin/7.jpeg", "cinaralti-mersin/2.mp4", "cinaralti-mersin/3.mp4"
+      ],
       desc: {
-        tr: "Mersin Marina'da deniz havası eşliğinde, mangal lezzetlerini sahil keyfiyle sunan Çınaraltı şubesi.",
-        en: "At Mersin Marina — Çınaraltı serves its signature grill flavours with a relaxed seaside atmosphere.",
-        de: "An der Marina von Mersin serviert Çınaraltı seine Grillspezialitäten mit entspanntem Meeresflair."
+        tr: "Mersin'de deniz havası eşliğinde, mangal lezzetlerini sahil keyfiyle sunan Çınaraltı şubesi.",
+        en: "In Mersin — Çınaraltı serves its signature grill flavours with a relaxed seaside atmosphere.",
+        de: "In Mersin serviert Çınaraltı seine Grillspezialitäten mit entspanntem Meeresflair."
       },
       address: "Eğriçam Mah. Adnan Menderes Bulvarı, Yalın Apartman No:180/3A, Yenişehir / Mersin",
       phone: "0539 774 04 41", tel: "+905397740441", hours: "09:00 – 01:00",
@@ -669,6 +753,7 @@
       },
       address: "Mersin / Türkiye",
       cuisine: { tr: "Uzak Doğu & Asya Mutfağı", en: "Far East & Asian Cuisine", de: "Fernöstliche & Asiatische Küche" },
+      phone: "0 505 002 54 52", tel: "+905050025452",
       instagram: "The520shanghai"
     }
   ];
@@ -683,13 +768,16 @@
     if (!cardsWrap) return;
     cardsWrap.innerHTML = BRANCHES.map(function (b, i) {
       var badge = b.badge ? '<span class="branch-open">' + t(L.open24) + "</span>" : "";
+      var c = countMedia(b);
+      var countTxt = c.photos + " " + t(L.photos) + (c.videos ? " · " + c.videos + " " + t(L.video) : "");
+      var countIcon = c.videos ? SVG.play : SVG.images;
       return (
         '<article class="branch reveal" data-branch="' + i + '" role="button" tabindex="0" aria-label="' + b.name + '">' +
           '<div class="branch-media">' +
-            '<img src="' + IMG + b.images[0] + '" alt="' + b.name + '" loading="lazy" />' +
+            '<img src="' + IMG + firstPhoto(b) + '" alt="' + b.name + '" loading="lazy" />' +
             '<span class="branch-city">' + b.city + "</span>" +
             badge +
-            '<span class="branch-count">' + SVG.images + b.images.length + " " + t(L.photos) + "</span>" +
+            '<span class="branch-count">' + countIcon + countTxt + "</span>" +
           "</div>" +
           '<div class="branch-body">' +
             '<h3 class="branch-name">' + b.name + "</h3>" +
@@ -733,6 +821,7 @@
   /* ---------- Modal ---------- */
   var modal = document.getElementById("branchModal");
   var mainImg = document.getElementById("bmMainImg");
+  var mainVid = document.getElementById("bmMainVid");
   var thumbs = document.getElementById("bmThumbs");
   var counter = document.getElementById("bmCounter");
   var state = { branch: null, idx: 0 };
@@ -751,7 +840,11 @@
     mapBtn.textContent = t(L.directions);
 
     thumbs.innerHTML = b.images.map(function (src, k) {
-      return '<button class="bm-thumb' + (k === 0 ? " active" : "") + '" data-k="' + k + '"><img src="' + IMG + src + '" alt="" loading="lazy" /></button>';
+      var vid = isVideo(src);
+      var inner = vid
+        ? '<span class="bm-thumb-vid">' + SVG.play + "</span>"
+        : '<img src="' + IMG + src + '" alt="" loading="lazy" />';
+      return '<button class="bm-thumb' + (vid ? " is-video" : "") + (k === 0 ? " active" : "") + '" data-k="' + k + '">' + inner + "</button>";
     }).join("");
     thumbs.style.display = b.images.length > 1 ? "flex" : "none";
     thumbs.querySelectorAll(".bm-thumb").forEach(function (th) {
@@ -768,8 +861,23 @@
     var b = state.branch; if (!b) return;
     var n = b.images.length;
     state.idx = (k + n) % n;
-    mainImg.src = IMG + b.images[state.idx];
-    mainImg.alt = b.name;
+    var src = b.images[state.idx];
+
+    if (mainVid) { try { mainVid.pause(); } catch (e) {} }
+    if (isVideo(src)) {
+      mainImg.style.display = "none";
+      mainImg.removeAttribute("src");
+      if (mainVid) {
+        mainVid.src = IMG + src;
+        mainVid.style.display = "block";
+        try { mainVid.currentTime = 0; } catch (e) {}
+      }
+    } else {
+      if (mainVid) { mainVid.removeAttribute("src"); mainVid.load(); mainVid.style.display = "none"; }
+      mainImg.style.display = "block";
+      mainImg.src = IMG + src;
+      mainImg.alt = b.name;
+    }
     counter.textContent = (state.idx + 1) + " / " + n;
     counter.style.display = n > 1 ? "block" : "none";
     thumbs.querySelectorAll(".bm-thumb").forEach(function (th, i) {
@@ -781,6 +889,7 @@
 
   function closeModal() {
     if (!modal) return;
+    if (mainVid) { try { mainVid.pause(); } catch (e) {} }
     modal.classList.remove("open");
     modal.setAttribute("aria-hidden", "true");
     document.body.classList.remove("bm-lock");
