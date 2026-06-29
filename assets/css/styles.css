@@ -148,8 +148,7 @@ ul { list-style: none; }
   transition: height 0.4s var(--ease), width 0.4s var(--ease);
 }
 .brand-mark img {
-  width: 150%; height: 150%; object-fit: cover; display: block;
-  margin-left: -26%; margin-top: -7%;
+  width: 100%; height: 100%; object-fit: cover; object-position: center; display: block;
 }
 .scrolled .brand-mark { height: 42px; width: 42px; }
 .brand-text { display: flex; flex-direction: column; line-height: 1; }
@@ -527,7 +526,7 @@ ul { list-style: none; }
   height: 72px; width: 72px; border-radius: 50%; overflow: hidden; margin-bottom: 18px;
   display: inline-block; background: #0b0b0d; box-shadow: 0 0 0 1px var(--border);
 }
-.footer-logo img { width: 150%; height: 150%; object-fit: cover; display: block; margin-left: -26%; margin-top: -7%; }
+.footer-logo img { width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; }
 .footer-brand p { color: var(--muted); font-size: 0.95rem; max-width: 320px; }
 .footer-cities { margin-top: 14px !important; font-size: 0.8rem !important; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold) !important; }
 .footer-col h4 {
