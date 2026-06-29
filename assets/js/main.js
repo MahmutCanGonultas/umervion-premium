@@ -47,6 +47,8 @@
       "heritage.title": "Güvenin Temeli: Restoranlarımız",
       "heritage.desc": "Umervion'un arkasında, Türkiye'nin önde gelen lokasyonlarında yıllardır başarıyla işletilen <strong>Çınaraltı Mangalbaşı</strong> ve <strong>Shangai 520</strong> restoranları yer alır. Avrupa'ya taşıdığımız güven, sahada kanıtlanmış bu işletme deneyiminden doğar.",
       "heritage.note": "Türkiye'de kazandığımız bu güveni, aynı titizlik ve kalite anlayışıyla Avrupa pazarına taşıyoruz.",
+      "heritage.bannerEyebrow": "Çınaraltı Mangalbaşı",
+      "heritage.bannerText": "Bakır işçiliği, mangal kültürü ve sofra geleneğini bir araya getiren imza mekânlarımız.",
 
       "branch.ankaraName": "Çınaraltı · İncek",
       "branch.mersinName": "Çınaraltı · Marina",
@@ -178,6 +180,8 @@
       "heritage.title": "The Foundation of Trust: Our Restaurants",
       "heritage.desc": "Behind Umervion stand our <strong>Çınaraltı Mangalbaşı</strong> and <strong>Shangai 520</strong> restaurants, successfully operated for years in prime locations across Türkiye. The trust we carry to Europe is born from this proven, hands-on experience.",
       "heritage.note": "We carry the trust we have earned in Türkiye to the European market — with the same care and commitment to quality.",
+      "heritage.bannerEyebrow": "Çınaraltı Mangalbaşı",
+      "heritage.bannerText": "Our signature venues bringing together copper craftsmanship, grill culture and the tradition of the table.",
 
       "branch.ankaraName": "Çınaraltı · İncek",
       "branch.mersinName": "Çınaraltı · Marina",
@@ -309,6 +313,8 @@
       "heritage.title": "Das Fundament des Vertrauens: Unsere Restaurants",
       "heritage.desc": "Hinter Umervion stehen unsere Restaurants <strong>Çınaraltı Mangalbaşı</strong> und <strong>Shangai 520</strong>, die seit Jahren erfolgreich an erstklassigen Standorten in der ganzen Türkei betrieben werden. Das Vertrauen, das wir nach Europa tragen, entsteht aus dieser bewährten, praktischen Erfahrung.",
       "heritage.note": "Das in der Türkei gewonnene Vertrauen tragen wir mit derselben Sorgfalt und demselben Qualitätsanspruch auf den europäischen Markt.",
+      "heritage.bannerEyebrow": "Çınaraltı Mangalbaşı",
+      "heritage.bannerText": "Unsere besonderen Orte, die Kupferhandwerk, Grillkultur und Tafeltradition vereinen.",
 
       "branch.ankaraName": "Çınaraltı · İncek",
       "branch.mersinName": "Çınaraltı · Marina",
@@ -574,4 +580,247 @@
   /* ---------- Footer year ---------- */
   const yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  /* =========================================================
+     RESTAURANT BRANCHES — cards + gallery modal
+     ========================================================= */
+  const IMG = "assets/images/restaurants/";
+  const SVG = {
+    pin: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s-7-5.686-7-11a7 7 0 1 1 14 0c0 5.314-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>',
+    phone: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L20 13l-1.5 4a2 2 0 0 1-2 1.4A16 16 0 0 1 4.6 7.5 2 2 0 0 1 5 4Z"/></svg>',
+    clock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>',
+    cuisine: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 11h16a8 8 0 0 1-16 0Z"/><path d="M12 4c1.6 1.2 1.6 2.8 0 4"/><path d="M9 5.5c.8.6.8 1.4 0 2"/><path d="M3 21h18"/></svg>',
+    images: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>',
+    instagram: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.1" fill="currentColor" stroke="none"/></svg>',
+    arrow: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>'
+  };
+  const L = {
+    photos: { tr: "fotoğraf", en: "photos", de: "Fotos" },
+    detail: { tr: "Galeri & Detaylar", en: "Gallery & Details", de: "Galerie & Details" },
+    open24: { tr: "24 Saat Açık", en: "Open 24/7", de: "24 Std. geöffnet" },
+    address: { tr: "Adres", en: "Address", de: "Adresse" },
+    phone: { tr: "Telefon", en: "Phone", de: "Telefon" },
+    hours: { tr: "Çalışma Saatleri", en: "Opening Hours", de: "Öffnungszeiten" },
+    cuisine: { tr: "Mutfak", en: "Cuisine", de: "Küche" },
+    instagram: { tr: "Instagram", en: "Instagram", de: "Instagram" },
+    directions: { tr: "Yol Tarifi Al", en: "Get Directions", de: "Route planen" }
+  };
+
+  const BRANCHES = [
+    {
+      id: "incek", city: "Ankara",
+      name: "Çınaraltı · İncek",
+      images: ["cinaralti-incek/1.jpeg", "cinaralti-incek/2.jpeg", "cinaralti-incek/3.jpeg", "cinaralti-incek/4.jpeg"],
+      desc: {
+        tr: "Ankara İncek'te, geniş bahçesi ve mangal kültürünün eşsiz lezzetleriyle misafirlerini ağırlayan Çınaraltı Mangalbaşı.",
+        en: "In İncek, Ankara — Çınaraltı Mangalbaşı welcomes guests with a spacious garden and the unique flavours of Turkish grill culture.",
+        de: "In İncek, Ankara — Çınaraltı Mangalbaşı empfängt seine Gäste mit großzügigem Garten und den Aromen türkischer Grillkultur."
+      },
+      address: "Alacaatlı Mah. Kanuni Sultan Süleyman Bulvarı No:141 A, İncek, Çankaya / Ankara",
+      phone: "0540 390 06 06", tel: "+905403900606", hours: "09:00 – 00:00",
+      instagram: "Cinaraltimangalbasiincek"
+    },
+    {
+      id: "cayyolu", city: "Ankara",
+      name: "Çınaraltı · Çayyolu",
+      images: ["cinaralti-cayyolu/1.jpeg", "cinaralti-cayyolu/2.jpeg"],
+      desc: {
+        tr: "Ankara Çayyolu'ndaki yeni şubemiz; aynı kalite ve lezzet anlayışını modern bir atmosferle buluşturuyor.",
+        en: "Our new branch in Çayyolu, Ankara — bringing the same quality and flavour together with a modern atmosphere.",
+        de: "Unsere neue Filiale in Çayyolu, Ankara — gleiche Qualität und Geschmack in modernem Ambiente."
+      },
+      address: "Çayyolu, Çankaya / Ankara", hours: "09:00 – 00:00",
+      instagram: "Cinaraltimangalbasicayyolu"
+    },
+    {
+      id: "marina", city: "Mersin",
+      name: "Çınaraltı · Marina",
+      images: ["cinaralti-mersin/1.jpeg"],
+      desc: {
+        tr: "Mersin Marina'da deniz havası eşliğinde, mangal lezzetlerini sahil keyfiyle sunan Çınaraltı şubesi.",
+        en: "At Mersin Marina — Çınaraltı serves its signature grill flavours with a relaxed seaside atmosphere.",
+        de: "An der Marina von Mersin serviert Çınaraltı seine Grillspezialitäten mit entspanntem Meeresflair."
+      },
+      address: "Eğriçam Mah. Adnan Menderes Bulvarı, Yalın Apartman No:180/3A, Yenişehir / Mersin",
+      phone: "0539 774 04 41", tel: "+905397740441", hours: "09:00 – 01:00",
+      instagram: "Cinaraltimangalbasimersin"
+    },
+    {
+      id: "maltepe", city: "İstanbul", badge: true,
+      name: "Çınaraltı · Maltepe",
+      images: ["cinaralti-istanbul/1.jpg.png", "cinaralti-istanbul/2.jpg.avif"],
+      desc: {
+        tr: "İstanbul Maltepe Küçükyalı'da 24 saat hizmet veren Çınaraltı; her saat taze mangal keyfi sunar.",
+        en: "Open 24 hours in Küçükyalı, Maltepe — Çınaraltı offers fresh grill delights around the clock.",
+        de: "Rund um die Uhr geöffnet in Küçükyalı, Maltepe — Çınaraltı bietet jederzeit frische Grillgenüsse."
+      },
+      address: "Altıntepe Mah. Kasaplar Çarşısı No:2 F-G, Küçükyalı, 34840 Maltepe / İstanbul",
+      phone: "0535 334 44 44", tel: "+905353344444", hours24: true,
+      instagram: "Cinaralti"
+    },
+    {
+      id: "shangai", city: "Mersin",
+      name: "Shangai 520 · Mersin",
+      images: ["shangai-mersin/1.jpeg", "shangai-mersin/2.jpeg", "shangai-mersin/3.jpeg", "shangai-mersin/4.jpeg"],
+      desc: {
+        tr: "Mersin'de Uzak Doğu ve Asya mutfağının seçkin lezzetlerini sunan modern restoran konsepti Shangai 520.",
+        en: "Shangai 520 — a modern restaurant concept in Mersin offering the finest flavours of Far East & Asian cuisine.",
+        de: "Shangai 520 — ein modernes Restaurantkonzept in Mersin mit den feinsten Aromen fernöstlicher & asiatischer Küche."
+      },
+      address: "Mersin / Türkiye",
+      cuisine: { tr: "Uzak Doğu & Asya Mutfağı", en: "Far East & Asian Cuisine", de: "Fernöstliche & Asiatische Küche" },
+      instagram: "The520shanghai"
+    }
+  ];
+
+  const lang = () => (typeof currentLang !== "undefined" ? currentLang : "tr");
+  const t = (o) => (o && (o[lang()] || o.tr)) || "";
+  const mapUrl = (b) => "https://maps.google.com/?q=" + encodeURIComponent(b.name.replace(/·/g, "") + " " + b.address);
+
+  const cardsWrap = document.getElementById("branchCards");
+
+  function renderCards() {
+    if (!cardsWrap) return;
+    cardsWrap.innerHTML = BRANCHES.map(function (b, i) {
+      var badge = b.badge ? '<span class="branch-open">' + t(L.open24) + "</span>" : "";
+      return (
+        '<article class="branch reveal" data-branch="' + i + '" role="button" tabindex="0" aria-label="' + b.name + '">' +
+          '<div class="branch-media">' +
+            '<img src="' + IMG + b.images[0] + '" alt="' + b.name + '" loading="lazy" />' +
+            '<span class="branch-city">' + b.city + "</span>" +
+            badge +
+            '<span class="branch-count">' + SVG.images + b.images.length + " " + t(L.photos) + "</span>" +
+          "</div>" +
+          '<div class="branch-body">' +
+            '<h3 class="branch-name">' + b.name + "</h3>" +
+            buildMeta(b, true) +
+            '<span class="branch-cta">' + t(L.detail) + SVG.arrow + "</span>" +
+          "</div>" +
+        "</article>"
+      );
+    }).join("");
+
+    cardsWrap.querySelectorAll(".branch").forEach(function (el) {
+      var idx = +el.getAttribute("data-branch");
+      el.addEventListener("click", function () { openModal(idx); });
+      el.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openModal(idx); }
+      });
+    });
+    observeReveal(cardsWrap.querySelectorAll(".reveal"));
+  }
+
+  function buildMeta(b, compact) {
+    var rows = [];
+    rows.push(metaRow(SVG.pin, compact ? null : t(L.address), b.address));
+    if (b.phone) rows.push(metaRow(SVG.phone, compact ? null : t(L.phone), b.phone, "tel:" + b.tel));
+    if (b.cuisine) rows.push(metaRow(SVG.cuisine, compact ? null : t(L.cuisine), t(b.cuisine)));
+    if (b.hours24) rows.push(metaRow(SVG.clock, compact ? null : t(L.hours), t(L.open24)));
+    else if (b.hours) rows.push(metaRow(SVG.clock, compact ? null : t(L.hours), b.hours));
+    if (!compact && b.instagram) {
+      rows.push(metaRow(SVG.instagram, t(L.instagram), "@" + b.instagram, "https://instagram.com/" + b.instagram, "_blank"));
+    }
+    return '<ul class="' + (compact ? "branch-meta" : "bm-meta") + '">' + rows.join("") + "</ul>";
+  }
+
+  function metaRow(icon, label, value, href, target) {
+    var attr = target ? ' target="' + target + '" rel="noopener"' : "";
+    var inner = href ? '<a href="' + href + '"' + attr + ">" + value + "</a>" : "<span>" + value + "</span>";
+    var lbl = label ? '<span class="bm-label">' + label + "</span>" : "";
+    return "<li>" + icon + "<div>" + lbl + inner + "</div></li>";
+  }
+
+  /* ---------- Modal ---------- */
+  var modal = document.getElementById("branchModal");
+  var mainImg = document.getElementById("bmMainImg");
+  var thumbs = document.getElementById("bmThumbs");
+  var counter = document.getElementById("bmCounter");
+  var state = { branch: null, idx: 0 };
+
+  function openModal(i) {
+    var b = BRANCHES[i];
+    if (!b || !modal) return;
+    state.branch = b; state.idx = 0;
+
+    document.getElementById("bmCity").textContent = b.city;
+    document.getElementById("bmName").textContent = b.name;
+    document.getElementById("bmDesc").textContent = t(b.desc);
+    document.getElementById("bmMeta").outerHTML = buildMeta(b, false).replace('class="bm-meta"', 'class="bm-meta" id="bmMeta"');
+    var mapBtn = document.getElementById("bmMap");
+    mapBtn.href = mapUrl(b);
+    mapBtn.textContent = t(L.directions);
+
+    thumbs.innerHTML = b.images.map(function (src, k) {
+      return '<button class="bm-thumb' + (k === 0 ? " active" : "") + '" data-k="' + k + '"><img src="' + IMG + src + '" alt="" loading="lazy" /></button>';
+    }).join("");
+    thumbs.style.display = b.images.length > 1 ? "flex" : "none";
+    thumbs.querySelectorAll(".bm-thumb").forEach(function (th) {
+      th.addEventListener("click", function () { showImg(+th.getAttribute("data-k")); });
+    });
+
+    showImg(0);
+    modal.classList.add("open");
+    modal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("bm-lock");
+  }
+
+  function showImg(k) {
+    var b = state.branch; if (!b) return;
+    var n = b.images.length;
+    state.idx = (k + n) % n;
+    mainImg.src = IMG + b.images[state.idx];
+    mainImg.alt = b.name;
+    counter.textContent = (state.idx + 1) + " / " + n;
+    counter.style.display = n > 1 ? "block" : "none";
+    thumbs.querySelectorAll(".bm-thumb").forEach(function (th, i) {
+      th.classList.toggle("active", i === state.idx);
+    });
+    var arrows = modal.querySelectorAll(".bm-arrow");
+    arrows.forEach(function (a) { a.style.display = n > 1 ? "grid" : "none"; });
+  }
+
+  function closeModal() {
+    if (!modal) return;
+    modal.classList.remove("open");
+    modal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("bm-lock");
+  }
+
+  if (modal) {
+    modal.querySelectorAll("[data-close]").forEach(function (el) {
+      el.addEventListener("click", closeModal);
+    });
+    document.getElementById("bmPrev").addEventListener("click", function () { showImg(state.idx - 1); });
+    document.getElementById("bmNext").addEventListener("click", function () { showImg(state.idx + 1); });
+    document.addEventListener("keydown", function (e) {
+      if (!modal.classList.contains("open")) return;
+      if (e.key === "Escape") closeModal();
+      else if (e.key === "ArrowLeft") showImg(state.idx - 1);
+      else if (e.key === "ArrowRight") showImg(state.idx + 1);
+    });
+  }
+
+  /* ---------- reveal helper for dynamic cards ---------- */
+  function observeReveal(els) {
+    if (!("IntersectionObserver" in window)) {
+      els.forEach(function (el) { el.classList.add("in"); });
+      return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); }
+      });
+    }, { threshold: 0.12 });
+    els.forEach(function (el) { io.observe(el); });
+  }
+
+  renderCards();
+  document.querySelectorAll(".lang-btn").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      renderCards();
+      if (modal && modal.classList.contains("open") && state.branch) {
+        openModal(BRANCHES.indexOf(state.branch));
+      }
+    });
+  });
 })();
